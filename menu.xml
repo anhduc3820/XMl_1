@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="menu.xsl" ?>
+<!DOCTYPE DOCUMENT SYSTEM "menu.dtd">
+
+<Menu>
+    <food>
+        <name>Salad</name>
+        <price>50$</price>
+        <description>Food desert</description>
+        <calories>200</calories>
+    </food>
+</Menu>
