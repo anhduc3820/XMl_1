@@ -3,10 +3,28 @@
 <!DOCTYPE DOCUMENT SYSTEM "menu.dtd">
 
 <Menu>
-    <food>
-        <name>Salad</name>
-        <price>50$</price>
-        <description>Food desert</description>
+    <food type="Desserts">
+        <name>Chicken</name>
+        <price>$200</price>
+        <description>fried chicken</description>
+        <calories>400</calories>
+    </food>
+    <food type="Salad">
+        <name>Strawberry Belgian Waffles</name>
+        <price>$7.95</price>
+        <description>Light Belgian waffles covered with strawberries and whipped cream</description>
         <calories>200</calories>
+    </food>
+    <food type="Main Course">
+        <name>Beef</name>
+        <price>$300</price>
+        <description>Beef fried with melon</description>
+        <calories>600</calories>
+    </food>
+    <food type="Drinks">
+        <name>Orange</name>
+        <price>$7</price>
+        <description>orange juice</description>
+        <calories>150</calories>
     </food>
 </Menu>
