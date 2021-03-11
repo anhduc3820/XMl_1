@@ -1,6 +1,7 @@
 <?xml encoding="UTF-8"?>
 <!ELEMENT Menu (food)>
 <!ELEMENT food (name, price, description, calories)>
+<!ATTLIST food type (Salad|Main Course|Desserts|Drinks) "Salad">
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
